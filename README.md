@@ -1,12 +1,5 @@
-# Dreamer Studio Recovery Portal
+﻿# Dreamer Studio Recovery Portal
 
-Auteur: Adro
+Static public recovery portal for Dreamer Studio. The application repository, installer release and full-state remain private.
 
-Ce dossier contient le portail statique minimal pour `REC-009_GITHUB_PAGES_INSTALLER_PORTAL`.
-
-But:
-
-- fournir un lien simple de recuperation;
-
-Le portail est volontairement statique et sans dependance de build pour rester deployable sur un PC/repo minimal.
-
+Current public entrypoint downloads the private stable launcher package: `DreamerStudioInstaller-0.1.4-stable.zip`.
