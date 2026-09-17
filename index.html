@@ -6,7 +6,7 @@
     <title>Dreamer Studio Recovery</title>
     <meta
       name="description"
-      content="Portail premium de recuperation Dreamer Studio: installer, verifier, restaurer."
+      content="Dreamer Studio Recovery 0.3 pour Windows 10/11 : installer, recevoir les mises à jour, revenir à une version précédente et restaurer une sauvegarde chiffrée."
     />
     <style>
       :root {
@@ -747,10 +747,10 @@
           <h1 class="brand-title"><span>Dreamer Studio</span></h1>
           <p class="subtitle">Creative Digital Suite</p>
 
-          <div class="version-pill">Version stable - Recovery ready</div>
+          <div class="version-pill">Version 0.3 — Recovery connecté</div>
 
           <div class="download-zone">
-            <a class="download-button" href="https://github.com/Adronak/Dreamer-Studio/releases/download/dreamer-installer-stable-latest/DreamerStudioInstaller-0.1.5w-stable.zip">
+            <a class="download-button" href="https://github.com/Adronak/Dreamer-Studio/releases/download/dreamer-installer-v0.3.0-stable-20260917_234208/DreamerStudioInstaller-0.3.0-stable.zip">
               <span class="download-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" role="img">
                   <path d="M12 3v10.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
@@ -758,24 +758,20 @@
                   <path d="M5 18.5h14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
                 </svg>
               </span>
-              Telecharger le launcher
+              Télécharger le launcher
             </a>
 
             <div class="platforms" aria-label="Plateformes">
               <strong>Windows 10/11</strong>
               <span>-</span>
-              <span>macOS 13+</span>
-              <span>-</span>
-              <span>Linux</span>
-              <span>-</span>
               <span>Gratuit</span>
             </div>
 
             <div class="links-row">
-              <a class="ghost-link" href="https://github.com/Adronak/Dreamer-Studio/releases/tag/dreamer-installer-stable-latest">Release installateur</a>
+              <a class="ghost-link" href="https://github.com/Adronak/Dreamer-Studio/releases/tag/dreamer-installer-v0.3.0-stable-20260917_234208">Release installateur</a>
               <a class="ghost-link" href="https://github.com/Adronak/Dreamer-Studio/releases">Toutes les releases</a>
-              <a class="ghost-link" href="https://github.com/Adronak/Dreamer-Studio/blob/main/docs/DREAMER_STUDIO_EMERGENCY_RECOVERY_RUNBOOK.md">Runbook urgence</a>
-              <a class="ghost-link" href="https://github.com/Adronak/Dreamer-Studio">Repository</a>
+              <a class="ghost-link" href="https://github.com/Adronak/Dreamer-Studio/releases/download/dreamer-installer-v0.3.0-stable-20260917_234208/GUIDE_RECOVERY_0_3.md">Guide Recovery 0.3</a>
+              <a class="ghost-link" href="https://github.com/Adronak/Dreamer-Studio">Dépôt GitHub</a>
             </div>
           </div>
         </header>
@@ -793,16 +789,17 @@
               </span>
               <span class="faq-copy">
                 <strong>Configuration requise</strong>
-                <span>Systeme</span>
+                <span>Système</span>
               </span>
               <span class="chevron" aria-hidden="true"></span>
             </summary>
             <div class="faq-body">
-              <p>Le parcours cible est zero-prerequis: tu telecharges le launcher, tu doubles-cliques, puis Dreamer Studio prepare la workstation.</p>
+              <p>Le launcher autonome est disponible pour Windows 10/11. Extrais le ZIP puis ouvre <code>DreamerStudioLauncher.exe</code> pour préparer ton installation.</p>
               <ul>
-                <li>Windows 10/11 est la cible principale.</li>
-                <li>Node, Python, Rust, pnpm et Tauri ne doivent pas etre requis avant le lancement du setup.</li>
-                <li>Les dependances optionnelles comme SteamCMD, SRCDS, Blender ou Source tools sont detectees puis proposees.</li>
+                <li>Windows 10/11 64 bits et une connexion Internet pour recevoir les versions publiées.</li>
+                <li>Le launcher démarre sans installer Node, Python ou Rust au préalable ; il propose les dépendances nécessaires au logiciel.</li>
+                <li>Les outils complémentaires sont détectés et proposés dans <strong>Outils</strong>, selon tes besoins.</li>
+                <li>Un compte GitHub autorisé est nécessaire pour accéder aux téléchargements et sauvegardes du dépôt privé.</li>
               </ul>
             </div>
           </details>
@@ -816,18 +813,18 @@
                 </svg>
               </span>
               <span class="faq-copy">
-                <strong>Nouveautes recovery</strong>
+                <strong>Nouveautés Recovery 0.3</strong>
                 <span>Changelog</span>
               </span>
               <span class="chevron" aria-hidden="true"></span>
             </summary>
             <div class="faq-body">
               <ol>
-                <li>Distribution via GitHub Releases privees.</li>
-                <li>Portail GitHub Pages deployable manuellement.</li>
-                <li>Checksums SHA-256 obligatoires pour les artefacts.</li>
-                <li>Offline rescue kit, transfert PC et drill machine vierge documentes.</li>
-                <li>Runbook d'urgence dedie pour recuperer Dreamer Studio sans relire toute la doc.</li>
+                <li>Depuis les paramètres de Dreamer Studio, <strong>Publier sur mes PC</strong> diffuse ta version du logiciel vers les autres PC autorisés.</li>
+                <li>Le launcher reçoit les mises à jour avec progression du téléchargement, reprise après interruption et vérification des fichiers.</li>
+                <li>Une grande flèche permet de mettre le logiciel à jour ; les versions conservées permettent un retour à la version précédente.</li>
+                <li>La sauvegarde de station protège séparément les projets, réglages et sources dans une sauvegarde privée chiffrée.</li>
+                <li>Depuis <strong>Mes sauvegardes</strong>, retrouve une sauvegarde de station et restaure-la avec ta phrase de récupération.</li>
               </ol>
             </div>
           </details>
@@ -841,18 +838,18 @@
                 </svg>
               </span>
               <span class="faq-copy">
-                <strong>Securite & confidentialite</strong>
-                <span>Donnees</span>
+                <strong>Sécurité &amp; confidentialité</strong>
+                <span>Données</span>
               </span>
               <span class="chevron" aria-hidden="true"></span>
             </summary>
             <div class="faq-body">
-              <p>Cette page ne contient aucun secret et ne doit jamais heberger de backup sensible.</p>
+              <p>La mise à jour du logiciel et la sauvegarde de station répondent à deux besoins distincts.</p>
               <ul>
-                <li>Pas de <code>settings.local.json</code>.</li>
-                <li>Pas de fichier <code>.env</code>.</li>
-                <li>Pas de token provider, Steam token, RCON password ou certificat prive.</li>
-                <li>Les mots de passe restent dans Bitwarden ou dans ton coffre local.</li>
+                <li>La publication logicielle transporte le logiciel et ses dépendances déclarées. Tes projets et réglages personnels restent sur leur PC.</li>
+                <li>La sauvegarde de station est chiffrée avant son envoi dans le dépôt privé ; elle permet de récupérer tes données sur un autre PC.</li>
+                <li>Conserve la phrase de récupération hors du PC : elle sera nécessaire pour déchiffrer la sauvegarde.</li>
+                <li>Les mots de passe et autres secrets personnels restent dans ton coffre et se renseignent à nouveau après restauration.</li>
               </ul>
             </div>
           </details>
@@ -866,21 +863,27 @@
                 </svg>
               </span>
               <span class="faq-copy">
-                <strong>Besoin d'aide a l'installation ?</strong>
+                <strong>Besoin d’aide à l’installation ?</strong>
                 <span>Support</span>
               </span>
               <span class="chevron" aria-hidden="true"></span>
             </summary>
             <div class="faq-body">
-              <p>Si l'interface finale du launcher n'est pas encore disponible, utilise le runbook d'urgence puis la verification d'integrite.</p>
-              <pre class="code">powershell -NoProfile -ExecutionPolicy Bypass -File tools/installer/verify_release_integrity.ps1 -ReleaseDir &lt;release-folder&gt;</pre>
-              <p>Ce fallback est technique. Le parcours final doit rester un setup graphique autonome.</p>
+              <p>Le launcher guide l’installation, les mises à jour et la restauration sous Windows 10/11.</p>
+              <ol>
+                <li>Télécharge le ZIP de la version 0.3, extrais tout son contenu puis lance <code>DreamerStudioLauncher.exe</code>.</li>
+                <li>Dans les réglages du launcher, connecte un compte GitHub autorisé sur le dépôt privé et vérifie les mises à jour.</li>
+                <li>Utilise la grande flèche pour installer ou mettre à jour Dreamer Studio. Consulte <strong>Outils</strong> pour les dépendances nécessaires.</li>
+                <li>En cas de problème, lance <strong>Repair</strong> et consulte le diagnostic proposé.</li>
+                <li>Pour récupérer une station, ouvre <strong>Mes sauvegardes</strong>, choisis la sauvegarde puis indique ta phrase de récupération.</li>
+              </ol>
+              <p>Le <a href="https://github.com/Adronak/Dreamer-Studio/releases/download/dreamer-installer-v0.3.0-stable-20260917_234208/GUIDE_RECOVERY_0_3.md">guide Recovery 0.3</a> détaille ces parcours et le retour à une version précédente.</p>
             </div>
           </details>
         </section>
 
         <footer class="footer">
-          <a href="https://github.com/Adronak/Dreamer-Studio">Adronak/Dreamer-Studio</a> - 2026 Dreamer Studio - Recovery build
+          <a href="https://github.com/Adronak/Dreamer-Studio">Adronak/Dreamer-Studio</a> — 2026 Dreamer Studio — Recovery 0.3
         </footer>
       </section>
     </main>
